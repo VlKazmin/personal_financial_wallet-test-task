@@ -78,10 +78,7 @@ def add_transactions_submenu(transaction_manager: TransactionManager) -> None:
         if sub_choice == ADD_TRANSACTION:
 
             date: str = get_valid_date("Введите дату (гггг-мм-дд): ")
-            category: str = get_valid_category(
-                "Введите категорию ",
-                " (доход/расход): ",
-            )
+            category: str = get_valid_category("Введите категорию (доход/расход): ")
             amount: float = get_valid_amount("Введите сумму: ")
             description: str = get_description("Введите описание: ")
 
