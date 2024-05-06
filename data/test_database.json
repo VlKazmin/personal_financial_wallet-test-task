@@ -7,14 +7,14 @@
         "description": "Зарплата"
     },
     {
-        "id": 3,
+        "id": 2,
         "date": "2020-05-05",
         "category": "расход",
         "amount": 500.0,
         "description": "сухой шампунь"
     },
     {
-        "id": 4,
+        "id": 3,
         "date": "2024-05-05",
         "category": "доход",
         "amount": 100.0,
